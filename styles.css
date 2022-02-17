@@ -15,12 +15,7 @@ h1{
     font-family: 'Roboto Serif', sans-serif;
 }
 .buffer {
-    height: 11rem;
-}
-hr {
-    border-color: #F25A38;
-    border-width: 4px;
-    max-width: 100px;
+    height: 13rem;
 }
 .btn{
     font-weight: 700;
