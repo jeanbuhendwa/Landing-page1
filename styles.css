@@ -12,6 +12,10 @@ html {
 h1{
     font-size: 3rem;
     color: #F2F3F4;
+    font-family: 'Roboto Serif', sans-serif;
+}
+.buffer {
+    height: 11rem;
 }
 hr {
     border-color: #F25A38;
