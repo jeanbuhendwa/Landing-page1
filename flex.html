@@ -38,6 +38,33 @@
         .shrink-container .five{
             flex: 1 0 auto;
         }
+        .flex-axis{
+            display: flex;
+            flex-direction: column;
+        }
+        .flex-axis div{
+            height: 100px;
+            background: purple;
+            border: 2px solid red;
+            flex: 1 1 auto;
+        }
+        .flex-alignment{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 140px;
+            padding: 10px;
+            border: 2px solid black;
+            background: gray;
+            gap: 10px;
+        }
+        .flex-alignment div{
+            width: 100px;
+            height: 100px;
+            background: skyblue;
+            border: 2px solid darkslategray;
+            /* flex: 1; */
+        }
     </style>
 </head>
 <body>
@@ -55,6 +82,18 @@
         <div class="five"></div>
         <div class="six"></div>
         <div class="seven"></div>
+    </div>
+    <br>
+    <div class="flex-axis">
+        <div class="height"></div>
+        <div class="nine"></div>
+        <div class="ten"></div>
+    </div>
+    <br>
+    <div class="flex-alignment">
+        <div class="eleven"></div>
+        <div class="twelve"></div>
+        <div class="thirteen"></div>
     </div>
 </body>
 </html>
